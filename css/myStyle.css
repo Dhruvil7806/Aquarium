@@ -61,7 +61,7 @@ and comment the below class.*/
 
 .pt-nav {
     padding-top: 3.5vh;
-    padding-right: 0.3vw;
+    /*padding-right: 0.3vw;*/
 }
 .bg-headrt {
     position: absolute;
