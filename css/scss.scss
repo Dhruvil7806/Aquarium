@@ -1,0 +1,112 @@
+// Spacers Map
+$spacers: (
+  6: 3.5rem,
+  7: 5rem,
+  8: 5.5rem,
+  9: 7rem,
+  10: 7.5rem,
+  11: 9rem,
+  12: 9.5rem,
+  13: 11rem,
+  14: 11.5rem,
+  15: 13rem
+);
+
+// Padding Classes
+@each $key, $value in $spacers {
+  .p-#{$key} {
+    padding: $value;
+  }
+}
+
+// Margin Classes
+@each $key, $value in $spacers {
+  .m-#{$key} {
+    margin: $value;
+  }
+}
+// Horizontal Padding Classes
+@each $key, $value in $spacers {
+  .px-#{$key} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+}
+// Vertical Padding Classes
+@each $key, $value in $spacers {
+  .py-#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+}
+// Horizontal Margin Classes
+@each $key, $value in $spacers {
+  .mx-#{$key} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+}
+
+// Vertical Margin Classes
+@each $key, $value in $spacers {
+  .my-#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}
+
+// Padding Top Classes
+@each $key, $value in $spacers {
+  .pt-#{$key} {
+    padding-top: $value;
+  }
+}
+
+// Padding Bottom Classes
+@each $key, $value in $spacers {
+  .pb-#{$key} {
+    padding-bottom: $value;
+  }
+}
+
+// Padding End (Right) Classes
+@each $key, $value in $spacers {
+  .pe-#{$key} {
+    padding-right: $value;
+  }
+}
+
+// Padding Start (Left) Classes
+@each $key, $value in $spacers {
+  .ps-#{$key} {
+    padding-left: $value;
+  }
+}
+
+// Margin Top Classes
+@each $key, $value in $spacers {
+  .mt-#{$key} {
+    margin-top: $value;
+  }
+}
+
+// Margin Bottom Classes
+@each $key, $value in $spacers {
+  .mb-#{$key} {
+    margin-bottom: $value;
+  }
+}
+
+// Margin End (Right) Classes
+@each $key, $value in $spacers {
+  .me-#{$key} {
+    margin-right: $value;
+  }
+}
+
+// Margin Start (Left) Classes
+@each $key, $value in $spacers {
+  .ms-#{$key} {
+    margin-left: $value;
+  }
+}
